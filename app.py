@@ -6,8 +6,8 @@ import pickle
 
 # Load embedding model and ANN classifier
 embedder = SentenceTransformer('sentence-transformers/all-distilroberta-v1')
-ann_model = load_model("/Users/alyssasbrna/Downloads/ANN-DistilRoBERTa-model.keras")
-with open('/Users/alyssasbrna/Downloads/scaler.pkl', 'rb') as f:
+ann_model = load_model("ANN-DistilRoBERTa-model.keras")
+with open('scaler.pkl', 'rb') as f:
     scaler = pickle.load(f)
 
 st.title("🕵️ ANN-NLP DistilRoBERTa")
