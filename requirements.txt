@@ -1,5 +1,5 @@
 streamlit
-
+tensorflow
 sentence-transformers
 scikit-learn
 numpy
