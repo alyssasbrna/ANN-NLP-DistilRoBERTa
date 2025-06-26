@@ -4,5 +4,5 @@ keras >=3.0.0
 sentence-transformers==2.2.2
 huggingface_hub==0.14.1
 scikit-learn
-numpy>=1.23,<1.26
+numpy==2.0.2
 
