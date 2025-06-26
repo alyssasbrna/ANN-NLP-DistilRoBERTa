@@ -23,5 +23,5 @@ if st.button("Analyze"):
 
         # Predict
         prediction = ann_model.predict(scaled)[0][0]
-        label = "🔴 Scam" if prediction >= 0.3 else "🟢 Not Scam"
+        label = "🔴 Scam" if prediction >= 0.5 else "🟢 Not Scam"
         st.success(f"{label} (Confidence: {prediction:.2f})")
