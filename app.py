@@ -10,7 +10,7 @@ ann_model = load_model("ANN-DistilRoBERTa-model.keras")
 with open('scaler.pkl', 'rb') as f:
     scaler = pickle.load(f)
 
-st.title("🕵️ ANN-NLP DistilRoBERTa")
+st.title("🕵️ SCAM DETECTION")
 text_input = st.text_area("Enter a text:")
 
 if st.button("Analyze"):
